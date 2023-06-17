@@ -29,6 +29,9 @@ const Home = ({ navigation }) => {
         <TouchableOpacity onPress={() => navigation.navigate("Notifications")}>
           <Text>Notifications</Text>
         </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+          <Text>Login</Text>
+        </TouchableOpacity>
       </View>
     </GestureHandlerRootView>
   );
